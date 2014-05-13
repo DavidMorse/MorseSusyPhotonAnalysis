@@ -1,0 +1,851 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA
+END
+GiniIndexWithLaplace.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/GiniIndexWithLaplace.h
+END
+SeparationBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SeparationBase.h
+END
+DataSetInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/DataSetInfo.h
+END
+TNeuronInputSqSum.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TNeuronInputSqSum.h
+END
+PDEFoamKernelTrivial.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamKernelTrivial.h
+END
+TActivationChooser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TActivationChooser.h
+END
+SdivSqrtSplusB.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SdivSqrtSplusB.h
+END
+Option.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Option.h
+END
+MethodANNBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodANNBase.h
+END
+MethodBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodBase.h
+END
+DecisionTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/DecisionTree.h
+END
+DataSetFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/DataSetFactory.h
+END
+PDEFoamKernelGauss.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamKernelGauss.h
+END
+MethodCFMlpANN_Utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodCFMlpANN_Utils.h
+END
+PDEFoamTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamTarget.h
+END
+ExpectedErrorPruneTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ExpectedErrorPruneTool.h
+END
+MethodBoost.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodBoost.h
+END
+MethodCommittee.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodCommittee.h
+END
+TActivationRadial.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TActivationRadial.h
+END
+Reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Reader.h
+END
+BinaryTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/BinaryTree.h
+END
+PDF.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDF.h
+END
+PDEFoamDecisionTreeDensity.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamDecisionTreeDensity.h
+END
+OptimizeConfigParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/OptimizeConfigParameters.h
+END
+CrossEntropy.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/CrossEntropy.h
+END
+PDEFoamCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamCell.h
+END
+VariableTransformBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariableTransformBase.h
+END
+SVKernelMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SVKernelMatrix.h
+END
+MisClassificationError.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MisClassificationError.h
+END
+PDEFoamDiscriminantDensity.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamDiscriminantDensity.h
+END
+VariableDecorrTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariableDecorrTransform.h
+END
+FitterBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/FitterBase.h
+END
+GeneticPopulation.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/GeneticPopulation.h
+END
+IMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/IMethod.h
+END
+MethodMLP.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodMLP.h
+END
+CostComplexityPruneTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/CostComplexityPruneTool.h
+END
+TActivationTanh.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TActivationTanh.h
+END
+MethodLD.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodLD.h
+END
+Results.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Results.h
+END
+VariableInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariableInfo.h
+END
+KDEKernel.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/KDEKernel.h
+END
+MethodSVM.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodSVM.h
+END
+Factory.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Factory.h
+END
+MethodDT.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodDT.h
+END
+MethodBayesClassifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodBayesClassifier.h
+END
+MethodPDEFoam.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodPDEFoam.h
+END
+MethodFisher.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodFisher.h
+END
+MinuitFitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MinuitFitter.h
+END
+TNeuron.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TNeuron.h
+END
+BinarySearchTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/BinarySearchTree.h
+END
+NodekNN.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/NodekNN.h
+END
+PDEFoamKernelLinN.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamKernelLinN.h
+END
+MethodCompositeBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodCompositeBase.h
+END
+BinarySearchTreeNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/BinarySearchTreeNode.h
+END
+SimulatedAnnealing.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SimulatedAnnealing.h
+END
+Config.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Config.h
+END
+TSynapse.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TSynapse.h
+END
+Rule.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Rule.h
+END
+Volume.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Volume.h
+END
+MethodRuleFit.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodRuleFit.h
+END
+BDTEventWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/BDTEventWrapper.h
+END
+IFitterTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/IFitterTarget.h
+END
+PDEFoamDiscriminant.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamDiscriminant.h
+END
+SimulatedAnnealingFitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SimulatedAnnealingFitter.h
+END
+RuleEnsemble.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/RuleEnsemble.h
+END
+TActivation.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TActivation.h
+END
+MsgLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MsgLogger.h
+END
+MethodKNN.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodKNN.h
+END
+SVEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SVEvent.h
+END
+GeneticRange.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/GeneticRange.h
+END
+PDEFoamMultiTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamMultiTarget.h
+END
+TSpline1.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TSpline1.h
+END
+TActivationIdentity.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TActivationIdentity.h
+END
+MethodCFMlpANN.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodCFMlpANN.h
+END
+GeneticGenes.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/GeneticGenes.h
+END
+IPruneTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/IPruneTool.h
+END
+Tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Tools.h
+END
+ResultsMulticlass.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ResultsMulticlass.h
+END
+VariablePCATransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariablePCATransform.h
+END
+MinuitWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MinuitWrapper.h
+END
+PDEFoamDecisionTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamDecisionTree.h
+END
+PDEFoamEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamEvent.h
+END
+MethodHMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodHMatrix.h
+END
+MethodPDERS.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodPDERS.h
+END
+Event.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Event.h
+END
+ClassInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ClassInfo.h
+END
+PDEFoamTargetDensity.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamTargetDensity.h
+END
+DecisionTreeNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/DecisionTreeNode.h
+END
+Interval.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Interval.h
+END
+Version.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Version.h
+END
+ModulekNN.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ModulekNN.h
+END
+TNeuronInputChooser.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TNeuronInputChooser.h
+END
+TNeuronInputSum.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TNeuronInputSum.h
+END
+Configurable.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Configurable.h
+END
+TActivationSigmoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TActivationSigmoid.h
+END
+VariableNormalizeTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariableNormalizeTransform.h
+END
+RuleFitAPI.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/RuleFitAPI.h
+END
+TransformationHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TransformationHandler.h
+END
+Types.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Types.h
+END
+SVWorkingSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SVWorkingSet.h
+END
+VariableRearrangeTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariableRearrangeTransform.h
+END
+TNeuronInput.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TNeuronInput.h
+END
+MethodBDT.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodBDT.h
+END
+PDEFoamEventDensity.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamEventDensity.h
+END
+RuleFitParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/RuleFitParams.h
+END
+MethodCategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodCategory.h
+END
+MethodCuts.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodCuts.h
+END
+DataSetManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/DataSetManager.h
+END
+CCPruner.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/CCPruner.h
+END
+MethodLikelihood.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodLikelihood.h
+END
+GeneticFitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/GeneticFitter.h
+END
+PDEFoamVect.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamVect.h
+END
+TSpline2.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TSpline2.h
+END
+PDEFoamDensityBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamDensityBase.h
+END
+PDEFoamKernelBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoamKernelBase.h
+END
+MethodTMlpANN.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodTMlpANN.h
+END
+RootFinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/RootFinder.h
+END
+PDEFoam.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/PDEFoam.h
+END
+ResultsClassification.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ResultsClassification.h
+END
+MCFitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MCFitter.h
+END
+MethodCFMlpANN_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodCFMlpANN_def.h
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Timer.h
+END
+Node.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Node.h
+END
+DataSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/DataSet.h
+END
+RegressionVariance.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/RegressionVariance.h
+END
+Ranking.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/Ranking.h
+END
+MethodFDA.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/MethodFDA.h
+END
+VariableIdentityTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariableIdentityTransform.h
+END
+ConvergenceTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ConvergenceTest.h
+END
+SVKernelFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/SVKernelFunction.h
+END
+TNeuronInputAbs.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/TNeuronInputAbs.h
+END
+LDA.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/LDA.h
+END
+ResultsRegression.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ResultsRegression.h
+END
+CCTreeWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/CCTreeWrapper.h
+END
+RuleFit.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/RuleFit.h
+END
+ClassifierFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/ClassifierFactory.h
+END
+GiniIndex.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/GiniIndex.h
+END
+RuleCut.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/RuleCut.h
+END
+VariableGaussTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/VariableGaussTransform.h
+END
+GeneticAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/GeneticAlgorithm.h
+END
+DataInputHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/inc/TMVA/DataInputHandler.h
+END
