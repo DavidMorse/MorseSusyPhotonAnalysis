@@ -1,0 +1,21 @@
+
+set TEXTFILE = SignalMCfiles_gW.txt
+set TOTAL = `cat $TEXTFILE | wc | awk '{print $1}'`
+set COUNTER = 1
+foreach file (`cat $TEXTFILE`)
+	echo "Looking at file: $file"
+	set msq = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $3}'`
+	set M3 = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $5}'`
+	set M2 = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $7}'`
+	root -q -b ana.C\(\"msq_${msq}_M3_${M3}_M2_${M2}\",\"SignalMCAcceptance_gW_2012IDloose_15GevCHfakeCut_sihih012_pixelVetoNoEleVeto_4040EtCuts\",\"$file\"\) >&! /data/ndpc3/b/dmorse/RA3/joblogs/Acceptance/cms533v1/gW_2012IDloose_15GevCHfakeCut_sihih012_pixelVetoNoEleVeto_4040EtCuts_Acceptance_msq_${msq}_M3_${M3}_M2_${M2}.log &
+	echo "Log located at /data/ndpc3/b/dmorse/RA3/joblogs/Acceptance/cms533v1/gW_2012IDloose_15GevCHfakeCut_sihih012_pixelVetoNoEleVeto_4040EtCuts_Acceptance_msq_${msq}_M3_${M3}_M2_${M2}.log"
+	set THREADS = `ps | grep root.exe | wc | awk '{print $1}'`
+	echo "Threads: $THREADS Counter:$COUNTER/$TOTAL  -- corresponds to file above"
+	set COUNTER = `echo "$COUNTER + 1" | bc`
+	sleep 5
+	while ($THREADS > 3)
+		echo "Sleeping for 10 seconds!"
+		sleep 10
+		set THREADS = `ps | grep root.exe | wc | awk '{print $1}'`
+	end
+end

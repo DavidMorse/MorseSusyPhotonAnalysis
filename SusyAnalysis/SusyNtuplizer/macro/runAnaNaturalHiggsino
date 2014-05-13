@@ -1,0 +1,20 @@
+set TEXTFILE = SignalMCfileNaturalHiggsino.txt
+set TOTAL = `cat $TEXTFILE | wc | awk '{print $1}'`
+set COUNTER = 1
+foreach file (`cat $TEXTFILE`)
+	echo "Looking at file: $file"
+	set MST = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $2}'`
+	set M3 = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $4}'`
+	set MU = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $5}'`
+	root -q -b ana.C\(\"MST_${MST}_M3_${M3}_Mu_${MU}\",\"SignalMCAcceptance_NaturalHiggsino\",\"$file\"\) >&! /data/ndpc3/b/dmorse/RA3/joblogs/Acceptance/cms533v1/NaturalHiggsino_Acceptance_MST_${MST}_M3_${M3}_Mu_${MU}.log &
+	echo "Log located at /data/ndpc3/b/dmorse/RA3/joblogs/Acceptance/cms533v1/NaturalHiggsino_Acceptance_MST_${MST}_M3_${M3}_Mu_${MU}.log"
+	set THREADS = `ps | grep root.exe | wc | awk '{print $1}'`
+	echo "Threads: $THREADS Counter:$COUNTER/$TOTAL  -- corresponds to file above"
+	set COUNTER = `echo "$COUNTER + 1" | bc`
+	sleep 5
+	while ($THREADS > 3)
+		echo "Sleeping for 10 seconds!"
+		sleep 10
+		set THREADS = `ps | grep root.exe | wc | awk '{print $1}'`
+	end
+end

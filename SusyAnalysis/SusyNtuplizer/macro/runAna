@@ -1,0 +1,31 @@
+
+set TEXTFILE = SignalMCfilesWinocms533.txt
+set TOTAL = `cat $TEXTFILE | wc | awk '{print $1}'`
+set COUNTER = 1
+foreach file (`cat $TEXTFILE`)
+	echo "Looking at file: $file"
+	set MS = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $4}'`
+	set MG = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $5}'`
+	set Mchi = `echo $file | tr -d '[A-Za-z]' | tr -d '[.]' | tr '[_]' '[ ]' | awk '{print $6}'`
+	root -q -b ana.C\(\"MS_${MS}_MG_${MG}_MN_${Mchi}\",\"SignalMCAcceptance_Wino_2012IDloose_15GevCHfakeCut_sihih012_pixelCutNoEleVeto\",\"$file\"\) >&! /data/ndpc3/b/dmorse/RA3/joblogs/Acceptance/cms533v1/Wino_2012IDloose_15GevCHfakeCut_sihih012_pixelCutNoEleVeto_Acceptance_MS_${MS}_MG_${MG}_MN_${Mchi}.log &
+	echo "Log located at /data/ndpc3/b/dmorse/RA3/joblogs/Acceptance/cms533v1/Wino_2012IDloose_15GevCHfakeCut_sihih012_pixelCutNoEleVeto_Acceptance_MS_${MS}_MG_${MG}_MN_${Mchi}.log"
+	set THREADS = `ps | grep root.exe | wc | awk '{print $1}'`
+	echo "Threads: $THREADS Counter:$COUNTER/$TOTAL  -- corresponds to file above"
+	sleep 5
+	while ($THREADS > 4)
+		echo "Sleeping for 10 seconds!"
+		sleep 10
+		set THREADS = `ps | grep root.exe | wc | awk '{print $1}'`
+	end
+	if ($COUNTER == 1) then
+		echo "First job, let it finish before you go on to the rest so code can compile"
+		sleep 10
+		set THREADS = `ps | grep root.exe | wc | awk '{print $1}'`
+		while ($THREADS > 0)
+			echo "Waiting for first job to finish"
+			sleep 10
+			set THREADS = `ps aux | grep dmorse | grep -v grep | grep root.exe | wc | awk '{print $1}'`
+		end	
+	endif	
+	set COUNTER = `echo "$COUNTER + 1" | bc`
+end

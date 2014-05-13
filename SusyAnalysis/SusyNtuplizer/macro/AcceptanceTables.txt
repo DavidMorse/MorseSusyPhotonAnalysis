@@ -1,0 +1,97 @@
+Loading FW Lite setup.
+Loading susyEvent libraries
+TDR Style initialized
+
+Processing AcceptanceAAW.C...
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino130_bino1_5_10_15_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino150_bino1_5_10_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino175_bino1_5_10_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino200_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino225_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino250_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino275_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino300_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino325_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino350_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino375_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino400_bino1_5_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino425_bino1_5_10_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino450_bino1_5_10_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino475_bino1_5_10_hw_aaw_full_Jul23.root
+file: /data/ndpc3/b/dmorse/RA3/AnalysisOutput/hist_HiggsAna_Photon_cms533_WinoNLSP_chargino500_bino1_5_10_hw_aaw_full_Jul23.root
+Info in <TCanvas::Print>: png file Plots/Higgs/AcceptanceTimesEfficiency_aaW_We.png has been created
+Info in <TCanvas::Print>: pdf file Plots/Higgs/AcceptanceTimesEfficiency_aaW_We.pdf has been created
+Info in <TCanvas::Print>: png file Plots/Higgs/AcceptanceTimesEfficiency_aaW_Wmu.png has been created
+Info in <TCanvas::Print>: pdf file Plots/Higgs/AcceptanceTimesEfficiency_aaW_Wmu.pdf has been created
+\documentclass[11pt]{article}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{verbatim}
+\usepackage{changepage}
+\usepackage{tabularx}
+\begin{document}
+ \begin{center}
+  \begin{small}
+  \hspace*{-3cm}
+   \begin{tabularx}{1.45\textwidth}{ | c | c | c | c | c | c | c | c | c | c |}
+      \hline
+%
+%
+%
+      \bf{AAW e+$\gamma\gamma$ Point} & \bf{Total Yield} & \bf{MET$\le$50} & \bf{MET$\ge$50} & \bf{MET$\ge$75} & \bf{MET$\ge$100} & \bf{MET$\ge$150} & \bf{MET$\ge$200}    \\ \hline
+      chargino130 & 1.91617 & 0.573357 & 1.34281 & 0.844245 & 0.5188 & 0.202626 & 0.0871469 \\ \hline
+      chargino150 & 1.12754 & 0.324661 & 0.802881 & 0.52326 & 0.321172 & 0.110783 & 0.0575682 \\ \hline
+      chargino175 & 0.740365 & 0.154383 & 0.585982 & 0.399339 & 0.275121 & 0.100471 & 0.0333121 \\ \hline
+      chargino200 & 0.439563 & 0.0985475 & 0.341015 & 0.260119 & 0.187044 & 0.107235 & 0.0445257 \\ \hline
+      chargino225 & 0.303013 & 0.0465732 & 0.25644 & 0.218968 & 0.170368 & 0.0778405 & 0.0358378 \\ \hline
+      chargino250 & 0.207918 & 0.0229978 & 0.18492 & 0.159921 & 0.134769 & 0.0653006 & 0.031959 \\ \hline
+      chargino275 & 0.13462 & 0.0184716 & 0.116148 & 0.0996363 & 0.0786833 & 0.0503104 & 0.0204641 \\ \hline
+      chargino300 & 0.101612 & 0.00667456 & 0.0949373 & 0.0851942 & 0.0757188 & 0.0494029 & 0.0288571 \\ \hline
+      chargino325 & 0.0725519 & 0.00255958 & 0.0699923 & 0.0663806 & 0.0570308 & 0.0400768 & 0.0239216 \\ \hline
+      chargino350 & 0.0540946 & 0.00391552 & 0.050179 & 0.0464075 & 0.0406545 & 0.0299179 & 0.0200748 \\ \hline
+      chargino375 & 0.0375121 & 0.000868516 & 0.0366436 & 0.0345609 & 0.0306027 & 0.0227423 & 0.0154572 \\ \hline
+      chargino400 & 0.0310996 & 0.0011111 & 0.0299885 & 0.0286693 & 0.0270727 & 0.0216096 & 0.0155444 \\ \hline
+      chargino425 & 0.0230709 & 0.000734639 & 0.0223362 & 0.0215595 & 0.0201281 & 0.0161536 & 0.0123877 \\ \hline
+      chargino450 & 0.017297 & 0.000438975 & 0.016858 & 0.0158588 & 0.0150615 & 0.0121506 & 0.0085634 \\ \hline
+      chargino475 & 0.0128817 & 0.000358864 & 0.0125229 & 0.0120662 & 0.0115689 & 0.00982665 & 0.00771886 \\ \hline
+      chargino500 & 0.0100604 & 0.000389194 & 0.0096712 & 0.00919135 & 0.00847697 & 0.00724068 & 0.00567792 \\ \hline
+%
+%
+%
+   \end{tabularx}
+  \end{small}
+%
+%
+  \begin{small}
+  \hspace*{-3cm}
+   \begin{tabularx}{1.45\textwidth}{ | c | c | c | c | c | c | c | c | c | c |}
+      \hline
+%
+%
+%
+      \bf{AAW $\mu$+$\gamma\gamma$ Point} & \bf{Total Yield} & \bf{MET$\le$50} & \bf{MET$\ge$50} & \bf{MET$\ge$75} & \bf{MET$\ge$100} & \bf{MET$\ge$150} & \bf{MET$\ge$200}    \\ \hline
+      chargino130 & 3.61599 & 1.10759 & 2.5084 & 1.54728 & 0.956834 & 0.354651 & 0.129103 \\ \hline
+      chargino150 & 2.26747 & 0.739124 & 1.52835 & 0.985145 & 0.575267 & 0.230176 & 0.108376 \\ \hline
+      chargino175 & 1.2659 & 0.321573 & 0.944327 & 0.645842 & 0.429906 & 0.174464 & 0.0645397 \\ \hline
+      chargino200 & 0.751012 & 0.166565 & 0.584446 & 0.479005 & 0.337665 & 0.141393 & 0.0573081 \\ \hline
+      chargino225 & 0.532019 & 0.0847703 & 0.447248 & 0.371302 & 0.278385 & 0.125348 & 0.0561104 \\ \hline
+      chargino250 & 0.340571 & 0.0389609 & 0.30161 & 0.260476 & 0.205195 & 0.104781 & 0.0482844 \\ \hline
+      chargino275 & 0.21717 & 0.019935 & 0.197235 & 0.172656 & 0.145231 & 0.0835198 & 0.0431862 \\ \hline
+      chargino300 & 0.174441 & 0.0115811 & 0.16286 & 0.14268 & 0.124531 & 0.081747 & 0.0422979 \\ \hline
+      chargino325 & 0.127666 & 0.00983968 & 0.117827 & 0.109625 & 0.0951307 & 0.0661066 & 0.0386533 \\ \hline
+      chargino350 & 0.09387 & 0.0058641 & 0.0880059 & 0.0814527 & 0.0718154 & 0.0508249 & 0.0301639 \\ \hline
+      chargino375 & 0.0726479 & 0.00196824 & 0.0706796 & 0.06603 & 0.0607219 & 0.0489844 & 0.0321578 \\ \hline
+      chargino400 & 0.0490514 & 0.0016456 & 0.0474058 & 0.0447987 & 0.0404275 & 0.0316534 & 0.0198581 \\ \hline
+      chargino425 & 0.0372829 & 0.00141236 & 0.0358706 & 0.034524 & 0.0325858 & 0.0260375 & 0.0184426 \\ \hline
+      chargino450 & 0.0279063 & 0.00109466 & 0.0268116 & 0.0258822 & 0.0239375 & 0.0203893 & 0.0157486 \\ \hline
+      chargino475 & 0.0216326 & 0.000581198 & 0.0210514 & 0.0199404 & 0.0189387 & 0.015869 & 0.0126274 \\ \hline
+      chargino500 & 0.0139928 & 0.000356971 & 0.0136358 & 0.0133398 & 0.0127554 & 0.0111923 & 0.00886476 \\ \hline
+%
+%
+%
+   \end{tabularx}
+  \end{small}
+%
+%
+ \end{center}
+\end{document}
