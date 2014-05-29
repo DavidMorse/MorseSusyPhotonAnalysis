@@ -1,0 +1,85 @@
+// Jet energy correction is possible at ntuple level.
+// $ cd ../jec/JetMETObjects
+// $ make
+// This will create a shared library in jec/lib
+// which is included below as libJetMETObjects.so
+//
+// Come back to this directory and do
+// $ make
+// $ root -b -q -l ana.C
+// will produce hist_"physics"_"ds".root
+
+void ana(TString ds="analysis",TString physics="Photon"){
+
+
+  TStopwatch ts;
+  ts.Start();
+  
+  gSystem->Load("libSusyEvent.so");
+
+  // Look ../jec/JetMETObjects/README
+  gSystem->Load("../jec/lib/libJetMETObjects.so");
+
+  // Printing utility for ntuple variables
+  //gROOT->LoadMacro("SusyEventPrinter.cc+");
+
+  // Main analysis code
+  gROOT->LoadMacro("SusyEventAnalyzer.cc+");
+
+  // chain of inputs
+  TChain* chain = new TChain("susyTree");
+  
+  std::cout<<"Grabbing Files..."<<std::endl;
+   
+  //chain->Add(fileName.Data());
+
+  chain->Add("http://dcmu00/store/RA3Ntuples/SusyNtuples/cms538v1/Run2012A-22Jan2013-v1/Photon/Photon36Photon22_FT_53_V21_AN4/susyEvents_1_1_pR3.root");
+
+
+  SusyEventAnalyzer* sea = new SusyEventAnalyzer(chain);
+
+
+  // configuration parameters
+  // any values given here will replace the default values
+  sea->SetDataset(physics+"_"+ds);        // dataset name
+  sea->SetPrintInterval(2.5e5);             // print frequency
+  sea->SetPrintLevel(0);                  // print level for event contents
+  sea->SetOutputEventNumbers(false);      // print run and event numbers
+  sea->SetUseTrigger(true);
+  sea->SetUseJSON(false);
+  sea->DoRhoCorrection(true);
+  sea->DoNvertexCorrection(false);
+  sea->SetDR03Rho25Corr(0.081,0.022,0.011);//Ecal,Hcal.Track
+  sea->SetPFisoRho25Corr(0.031,0.013,0.078);//chargedHadronIso,neutralHadronIso,photonIso
+  sea->SetFilter(false);                  // filter events passing final cuts
+  sea->isFastSim(true);    //only matters for HiggsAna()
+  sea->isFullSim(false);   //only matters for HiggsAna()
+  sea->SetProcessNEvents(-1);     // number of events to be processed
+  
+  // HLT trigger path names
+  sea->AddHltName("HLT_Photon36_CaloId10_Iso50_Photon22_CaloId10_Iso50_v");
+  sea->AddHltName("HLT_Photon36_CaloId10_Iso50_Photon22_R9Id85_v");
+  sea->AddHltName("HLT_Photon36_R9Id85_Photon22_CaloId10_Iso50_v");
+  sea->AddHltName("HLT_Photon36_R9Id85_Photon22_R9Id85_v");
+  
+
+  //fully combined json
+  //sea->IncludeAJson("/afs/cern.ch/user/d/dmorse/scratch0/RA3/JsonFiles/2012/Cert_190456-190781_8TeV_13JulReReco_190782-190949_8TeV_May23ReReco_190950-196531_13JulReReco_196532-208686_8TeV_PromptReco_Collisions12_JSON_19499pb.txt");
+  //sea->IncludeAJson("/afs/cern.ch/user/d/dmorse/scratch0/RA3/JsonFiles/2012/Cert_2012A.txt");
+
+  //combined first 13JulyReReco:0-190781, then 23MayReReco:190782-190949, then 13JulyReReco:190950-196531, then prompt:196532-999999
+  //ignoring 06AugReReco JSON because it covers same run range as 23MayReReco but drops some lumi sections in 190949 - why?
+
+  sea->Loop();
+  //sea->DR03();
+  //sea->Pileup();
+  //sea->Filter();
+  //sea->PhotonId();
+  //sea->HiggsAna();
+
+  ts.Stop();
+
+  std::cout << "RealTime : " << ts.RealTime()/60.0 << " minutes" << std::endl;
+  std::cout << "CPUTime  : " << ts.CpuTime()/60.0 << " minutes" << std::endl;
+
+}
