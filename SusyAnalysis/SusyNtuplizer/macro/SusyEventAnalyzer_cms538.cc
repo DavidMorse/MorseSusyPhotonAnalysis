@@ -27,8 +27,8 @@
 #include "SusyEventAnalyzer.h"
 //#include "SusyEventPrinter.h"
 
-#include "../jec/JetMETObjects/interface/JetCorrectorParameters.h"
-#include "../jec/JetMETObjects/interface/FactorizedJetCorrector.h"
+//#include "../jec/JetMETObjects/interface/JetCorrectorParameters.h"
+//#include "../jec/JetMETObjects/interface/FactorizedJetCorrector.h"
 
 using namespace std;
 
