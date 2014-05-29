@@ -33,7 +33,7 @@ void ana(TString ds="analysis",TString physics="Photon"){
    
   //chain->Add(fileName.Data());
 
-  chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_2012A_example.root");
+  chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_2012A_Example.root");
 
   SusyEventAnalyzer* sea = new SusyEventAnalyzer(chain);
 
