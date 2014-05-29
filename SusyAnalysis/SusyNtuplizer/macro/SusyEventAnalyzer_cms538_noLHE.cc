@@ -11156,7 +11156,7 @@ void SusyEventAnalyzer::HiggsAna() {
       cout<<"Cross Section: " <<event->gridParams["xsec"]<<endl;
       //cout<<"ptHat: " <<event->gridParams["ptHat"]<<endl;
     }
-    
+    /*
     if(doSMS2Dscan){
       TString comment = event->LHEparams["gridPoint"];
       int one = comment.Index("_chargino");
@@ -11181,7 +11181,7 @@ void SusyEventAnalyzer::HiggsAna() {
       //cout<<"LHE comment: "<<event->LHEparams["gridPoint"]<<endl<<"mChi    : "<<mChi<<"  mBino    : "<<mBino<<endl<<"mChi gen: "<<mChi2<<"  mBino gen: "<<mBino2<<endl;
       
     }
-    
+    */
     h_SMS_mChi_mBino->Fill(mChi,mBino);
     h_SMS_mChi_mBino_fromGenPart->Fill(mChi2,mBino2);
 
