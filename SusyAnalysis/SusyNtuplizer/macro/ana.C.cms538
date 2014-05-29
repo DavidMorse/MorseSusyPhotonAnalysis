@@ -33,8 +33,7 @@ void ana(TString ds="analysis",TString physics="Photon"){
    
   //chain->Add(fileName.Data());
 
-  chain->Add("http://dcmu00/store/RA3Ntuples/SusyNtuples/cms538v1/Run2012A-22Jan2013-v1/Photon/Photon36Photon22_FT_53_V21_AN4/susyEvents_1_1_pR3.root");
-
+  chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_2012A_example.root");
 
   SusyEventAnalyzer* sea = new SusyEventAnalyzer(chain);
 
