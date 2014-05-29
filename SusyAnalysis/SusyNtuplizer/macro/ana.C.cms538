@@ -33,7 +33,22 @@ void ana(TString ds="analysis",TString physics="Photon"){
    
   //chain->Add(fileName.Data());
 
-  chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_2012A_Example.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_10_2_DGb.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_13_1_RiU.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_1_1_pR3.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_4_1_tzl.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_7_2_BsG.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_11_2_rak.root"); 
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_14_1_an6.root"); 
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_2_1_z68.root"); 
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_5_1_AyF.root"); 
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_8_2_Xuc.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_12_5_kzK.root");
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_15_1_8RO.root"); 
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_3_1_lsQ.root"); 
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_6_2_kpU.root"); 
+chain->Add("/afs/cern.ch/user/d/dmorse/public/forND/susyEvents_9_2_Nme.root");
+
 
   SusyEventAnalyzer* sea = new SusyEventAnalyzer(chain);
 
