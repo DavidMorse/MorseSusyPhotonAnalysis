@@ -2027,12 +2027,12 @@ susy::Event::copyEvent(Event const& _orig)
     gridParams[oItr->first] = oItr->second;
   for(std::map<TString, Float_t>::iterator itr(gridParams.begin()); itr != gridParams.end(); ++itr)
     if(_orig.gridParams.find(itr->first) == _orig.gridParams.end()) itr->second = 0.;
-
+/*
   for(std::map<TString, Float_t>::const_iterator oItr(_orig.LHEparams.begin()); oItr != _orig.LHEparams.end(); ++oItr)
     LHEparams[oItr->first] = oItr->second;
   for(std::map<TString, Float_t>::iterator itr(LHEparams.begin()); itr != LHEparams.end(); ++itr)
     if(_orig.LHEparams.find(itr->first) == _orig.LHEparams.end()) itr->second = 0.;
-
+*/
 
 
 }
